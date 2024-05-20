@@ -8,7 +8,7 @@ Reflexión:
 Estos errores son oportunidades de aprendizaje. Reflexionar sobre ellos ayuda a comprender mejor los conceptos subyacentes y fortalece las habilidades en React y programación en general.
 
 Analogía:
-Imagina que estás aprendiendo a montar en bicicleta por primera vez. Al principio, es posible que te tambalees y te caigas, pero cada caída te enseña algo nuevo. Del mismo modo, cometer errores al principio al utilizar React con Hooks es parte del proceso de aprendizaje.
+Imagina que este aprendiendo a montar en bicicleta por primera vez. Al principio, es posible que te tambalees y te caigas, pero cada caída te enseña algo nuevo. Del mismo modo, cometer errores al principio al utilizar React con Hooks es parte del proceso de aprendizaje.
 
 Resumen:
 Los errores comunes de los principiantes en React con Hooks incluyen no importar correctamente React, llamar Hooks condicionalmente, no proporcionar claves únicas en iteraciones, modificar el estado directamente, usar el estado anterior en actualizaciones, renderizar elementos condicionalmente sin manejar casos no especificados, no especificar correctamente el tipo de propiedades, no manejar correctamente los eventos, no inicializar el estado con el tipo correcto y no desestructurar el estado correctamente.
