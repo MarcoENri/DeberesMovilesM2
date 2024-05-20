@@ -1,0 +1,80 @@
+
+# Documentación del Proyecto
+
+## Estructura del Proyecto
+
+```
+src/
+├── Components/
+│   ├── Avatar.tsx
+│   ├── Calendar.tsx
+│   ├── Grid.tsx
+│   ├── Rate.tsx
+│   ├── Result.tsx
+│   └── Upload.tsx
+├── Layouts/
+│   └── MainLayout.tsx
+├── Pages/
+│   ├── Home.tsx
+│   └── ComponentsPage.tsx
+├── App.tsx
+└── index.tsx
+```
+
+## Componentes
+
+### Avatar (`Avatar.tsx`)
+
+- **Descripción:** Componente que muestra un avatar con un ícono de Ant Design.
+- **Uso:** Puede ser utilizado para mostrar avatares de usuarios en la interfaz de la aplicación.
+
+### Calendar (`Calendar.tsx`)
+
+- **Descripción:** Componente que muestra un calendario.
+- **Uso:** Puede ser utilizado para mostrar eventos, citas u otras fechas importantes.
+
+### Grid (`Grid.tsx`)
+
+- **Descripción:** Componente que muestra una cuadrícula de elementos.
+- **Uso:** Puede ser utilizado para mostrar datos en forma de cuadrícula o para organizar elementos en la interfaz.
+
+### Rate (`Rate.tsx`)
+
+- **Descripción:** Componente que muestra una calificación o clasificación.
+- **Uso:** Puede ser utilizado para permitir a los usuarios calificar elementos en la aplicación.
+
+### Result (`Result.tsx`)
+
+- **Descripción:** Componente que muestra un resultado o mensaje.
+- **Uso:** Puede ser utilizado para mostrar mensajes de éxito, error o información en la interfaz de la aplicación.
+
+### Upload (`Upload.tsx`)
+
+- **Descripción:** Componente que permite cargar archivos.
+- **Uso:** Puede ser utilizado para permitir a los usuarios cargar archivos en la aplicación.
+
+## Layout Principal (`MainLayout.tsx`)
+
+- **Descripción:** Layout principal de la aplicación que define la estructura visual básica.
+- **Componentes:** Encabezado, Contenido, Pie de Página.
+- **Uso:** Envuelve todas las páginas de la aplicación para proporcionar una estructura coherente.
+
+## Páginas
+
+### Home (`Home.tsx`)
+
+- **Descripción:** Página inicial de la aplicación que muestra una tabla.
+- **Componentes:** Tabla.
+- **Uso:** Muestra datos tabulares en la interfaz de la aplicación.
+
+### Components Page (`ComponentsPage.tsx`)
+
+- **Descripción:** Página que muestra una lista de diferentes componentes.
+- **Componentes:** Avatar, Calendar, Grid, Rate, Result, Upload.
+- **Uso:** Proporciona una vista de demostración de los diferentes componentes disponibles en la aplicación.
+
+## Configuración de Rutas (`App.tsx`)
+
+- **Descripción:** Configura las rutas para las diferentes páginas de la aplicación utilizando React Router.
+- **Rutas:** Página de Inicio (`/`), Página de Componentes (`/components`).
+- **Uso:** Permite la navegación entre las diferentes secciones de la aplicación.
