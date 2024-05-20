@@ -1,0 +1,33 @@
+
+## Componente DartsScore
+
+### Descripción
+El componente `DartsScore` calcula el puntaje obtenido en un lanzamiento de dardo basado en las coordenadas (x, y) proporcionadas.
+
+### Propiedades
+
+- `x` (number): Coordenada X del lanzamiento del dardo.
+- `y` (number): Coordenada Y del lanzamiento del dardo.
+
+### Uso
+
+```jsx
+<DartsScore x={3} y={4} />
+```
+
+---
+
+## Componente PangramChecker
+
+### Descripción
+El componente `PangramChecker` verifica si una oración dada es un pangrama, es decir, si contiene al menos una vez cada letra del alfabeto inglés.
+
+### Propiedades
+
+- `sentence` (string): La oración que se verificará si es un pangrama.
+
+### Uso
+
+```jsx
+<PangramChecker sentence="The quick brown fox jumps over the lazy dog." />
+```
