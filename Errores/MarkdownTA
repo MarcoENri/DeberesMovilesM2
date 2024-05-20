@@ -1,0 +1,30 @@
+
+1. **No importar React en archivos que usan JSX:**
+   Este error ocurre porque JSX necesita ser compilado en llamadas de función de React. Si no importas React en archivos que utilizan JSX, el código no se compilará correctamente y React no podrá reconocer los elementos JSX.
+
+2. **Llamar Hooks condicionalmente:**
+   React Hooks deben ser llamados en el nivel superior de un componente funcional, no dentro de estructuras condicionales o bucles. Esto es porque React necesita seguir el mismo orden en cada renderizado para mantener el estado correcto entre re-renderizados.
+
+3. **No usar un key único en iteraciones:**
+   Al renderizar una lista de elementos en React, es importante proporcionar una clave única para cada elemento de la lista. Esto ayuda a React a identificar qué elementos han cambiado, se agregaron o se eliminaron, lo que mejora el rendimiento y la eficiencia de la aplicación.
+
+4. **Modificación directa del estado:**
+   React recomienda actualizar el estado utilizando los métodos de actualización proporcionados por los Hooks, como `useState` en lugar de modificar directamente el valor del estado. Modificar el estado directamente puede llevar a resultados inesperados y comportamientos inconsistentes.
+
+5. **Usar el estado anterior en actualizaciones:**
+   Cuando se actualiza el estado en React utilizando Hooks, es importante utilizar el valor previo del estado para garantizar que los cambios se basen en el estado más reciente. Utilizar el estado anterior evita problemas de carrera y asegura que los cambios de estado sean consistentes.
+
+6. **Renderizar elementos condicionalmente sin manejar casos no especificados:**
+   Al renderizar elementos condicionalmente en React, es esencial manejar todos los casos posibles, incluidos los casos en los que la condición no se cumple. Esto evita errores de renderizado y garantiza un comportamiento predecible de la aplicación.
+
+7. **No especificar el tipo de propiedades correctamente:**
+   Es importante especificar el tipo de propiedades correctamente en los componentes de React, especialmente al utilizar TypeScript. Esto ayuda a detectar errores en tiempo de compilación y proporciona una mejor documentación del código.
+
+8. **No manejar correctamente los eventos:**
+   Al manejar eventos en los componentes de React, es crucial asegurarse de que se estén manejando correctamente para evitar comportamientos inesperados o errores en la aplicación.
+
+9. **No inicializar el estado con el tipo correcto:**
+   Es importante inicializar el estado con el tipo de dato correcto en React, especialmente cuando se utiliza TypeScript. Esto ayuda a garantizar que el estado tenga el tipo adecuado en todo momento y evita errores de tipo.
+
+10. **No desestructurar el estado correctamente:**
+    Al utilizar Hooks de estado en React, es importante desestructurar correctamente el estado para acceder a los valores y métodos de actualización de manera eficiente. No desestructurar el estado puede llevar a un código menos legible y propenso a errores.
